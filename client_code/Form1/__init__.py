@@ -7,6 +7,10 @@ class Form1(Form1Template):
     self.init_components(**properties)
 
     # Any code you write here will run before the form opens.
+
+  def button_1_click(self, **event_args):user_input
+    """This method is called when the button is clicked"""
+    pass
 def check_color_blindness():
     # Prompt the user to identify colors from a test image or provide input
     # You can use color plates like Ishihara plates for color vision tests
